@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin:auto;
+    width: 90%;
+    
+    background-color: ghostwhite;
+    background-repeat: repeat;
+}
+
+
+#gameTitle{
+    display: flex;
+}
+#gameTitle p{
+    margin-top: 25px;
+    font-weight: bolder;
+    flex: 1;
+    font-size: 1.8em;
+    text-align: center;
+    color:black;
+}
+#gameTitle span{
+    color: black;
+}
+
+
+
+
+#wrapper {
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;}
+
+  #wrapper #row1, #wrapper #row2, #wrapper #row3, #wrapper #row4, #wrapper #row5, #wrapper #row6, #wrapper #row7, #wrapper #row8 {
+    display: block; }
+
+    #wrapper #row1 #box, #wrapper #row2 #box, #wrapper #row3 #box, #wrapper #row4 #box, #wrapper #row5 #box, #wrapper #row6 #box, #wrapper #row7 #box, #wrapper #row8 #box {
+      display: flex;
+      flex-flow: row;
+      border-style: outset;
+      margin: 0.8px;
+      height: 50px;
+      width: 50px; 
+      }
+
+
+#scoreDiv{
+    display: flex;
+}
+#scoreDiv p{
+    margin-top: 25px;
+    font-weight: bolder;
+    flex: 1;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    
+}
+
+.modal-content p {
+    font-size: 3em;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.close {
+    
+    color: : #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

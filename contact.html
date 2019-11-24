@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0" charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="contact.js"></script>
+        <title>Final Project</title>
+        
+    </head>
+    <body>
+        <header>
+        <h1>TINY GAMES</h1>
+        
+        </header>
+        <nav>
+           <div class="navbar">
+  <a href="index.html">Home</a>
+ 
+  <div class="dropdown">
+      <button class="dropbtn"><a href="games.html">Games</a>
+      <i class="fa fa-caret-down"></i>
+        </button>
+    <div class="dropdown-content">
+      <a href="highorlow.html">High Or Low</a>
+      <a href="oddcolor.html">Odd Color</a>
+    </div>
+  </div> 
+               <a href="contact.html">Contact</a>
+</div>
+        </nav>
+        <main>
+            
+            <br><br>
+           
+        <div>
+        <form action="" method="post" id="form" name="form">
+		
+			
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="First Name" required>
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="email@domain.com" required>
+            <label for="phone">Phone</label>
+			<input type="text" id="phone" name="phone" placeholder="226-986-5986" required>
+			<div class="input-group">
+				<label>Gender</label><br>
+				<input type="radio" id="woman" value="woman" name="user_gender"><label for="male">Woman</label> <br>
+				<input type="radio" id="man" value="man" name="user_gender"><label for="male">Man</label> <br>
+				<input type="radio" id="non_binary" value="non_binary" name="user_gender"><label for="male">Non-Binary</label>
+			</div>
+		
+
+		
+			<label for="bio">Message</label>
+			<textarea id="bio" name="user_bio" placeholder="Please write your message here" required></textarea>
+
+			<label for="job">Review</label>
+			<select id="job" name="user_job">
+				<option value="none">Select</option>
+				<option value="copywriter">Excellent</option>
+				<option value="creative_director">Good</option>
+				<option value="designer">Average</option>
+				<option value="developer">Bad</option>
+			</select><br><br><br>
+
+			
+            <button class="button" name="submit" id="submit" value="Submit">Submit</button><br>
+	</form>
+            </div>
+            
+            
+                    </main>
+        <footer class="footer">
+        STAY UPDATED! &nbsp;
+        
+            <a href="https://www.instagram.com/accounts/login/"><img src="Images/insta.png" height="30" hspace="10"></a>
+        <a href="https://twitter.com/login?lang=en"><img src="images/tweet.png" height="30" hspace="10"></a> 
+        <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="images/snap.png" height="30" hspace="10"></a>
+        <a href="https://en-gb.facebook.com/login/"><img src="images/fb.png" height="30" hspace="10"></a> 
+        <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2Fdiscover&followup=https%3A%2F%2Fplus.google.com%2Fdiscover&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="images/google.png" height="30" hspace="10"></a> 
+            
+            
+        &copy;2018 by Tiny Games.
+        </footer>
+    </body>
+</html>
